@@ -8,8 +8,13 @@ input[type="text"] {
     font-size:24px;
     font-family: Monospaced, serif;
 }
-.input {
+.container {
+    display: grid;
     width: 900px;
+    grid-template-columns: repeat(3, auto);
+}
+.input {
+    width: 300px;
     border: 5px solid darkred;
     padding: 5px;
     margin: 20px;
@@ -18,7 +23,7 @@ input[type="text"] {
     text-align: left;
 }
 .audio {
-    width: 900px;
+    width: 300px;
     border: 5px solid grey;
     padding: 5px;
     margin: 20px;
@@ -27,11 +32,11 @@ input[type="text"] {
     overflow: hidden;
     white-space: initial;
     overflow-wrap: break-word;
-    max-height: 180px;
-    height: 180px;
+    max-height: 520px;
+    height: 520px;
 }
 .video {
-    width: 900px;
+    width: 300px;
     border: 5px solid grey;
     padding: 5px;
     margin: 20px;
@@ -40,12 +45,12 @@ input[type="text"] {
     overflow: hidden;
     white-space: initial;
     overflow-wrap: break-word;
-    max-height: 120px;
-    height: 120px;
+    max-height: 520px;
+    height: 520px;
 }
 
 .log {
-    width: 900px;
+    width: 220px;
     border: 5px solid grey;
     padding: 5px;
     margin: 20px;
@@ -54,6 +59,6 @@ input[type="text"] {
     overflow: hidden;
     white-space: initial;
     overflow-wrap: break-word;
-    max-height: 120px;
-    height: 120px;
+    max-height: 520px;
+    height: 520px;
 }
