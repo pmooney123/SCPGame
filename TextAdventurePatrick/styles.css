@@ -9,36 +9,51 @@ input[type="text"] {
     font-family: Monospaced, serif;
 }
 .input {
-    width: 300px;
+    width: 900px;
     border: 5px solid darkred;
     padding: 5px;
     margin: 20px;
     background-color: black;
     color: white;
     text-align: left;
-
 }
 .audio {
-    width: 300px;
+    width: 900px;
     border: 5px solid grey;
     padding: 5px;
     margin: 20px;
     color: white;
     text-align: left;
+    overflow: hidden;
+    white-space: initial;
+    overflow-wrap: break-word;
+    max-height: 180px;
+    height: 180px;
 }
 .video {
-    width: 300px;
+    width: 900px;
     border: 5px solid grey;
     padding: 5px;
     margin: 20px;
     color: white;
     text-align: left;
+    overflow: hidden;
+    white-space: initial;
+    overflow-wrap: break-word;
+    max-height: 120px;
+    height: 120px;
 }
+
 .log {
-    width: 300px;
+    width: 900px;
     border: 5px solid grey;
     padding: 5px;
     margin: 20px;
     color: white;
     text-align: left;
+    overflow: hidden;
+    white-space: initial;
+    overflow-wrap: break-word;
+    max-height: 120px;
+    height: 120px;
 }
